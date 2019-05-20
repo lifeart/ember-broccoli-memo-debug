@@ -18,12 +18,12 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "broccoli": "broccolijs/broccoli#master",
     "@ember/jquery": "^0.6.0",
     "@ember/optional-features": "^0.7.0",
+    "broccoli": "broccolijs/broccoli#master",
     "broccoli-asset-rev": "^3.0.0",
     "ember-ajax": "^5.0.0",
-    "ember-cli": "~3.10.0",
+    "ember-cli": "oligriffiths/ember-cli#oli/broccoli-watcher",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.7.3",
     "ember-cli-dependency-checker": "^3.1.0",

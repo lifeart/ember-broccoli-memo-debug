@@ -1,1 +1,1 @@
-{"summary":{"totalTime":73400,"platform":{"name":"win32"}},"nodes":[{"id":2407,"label":{"name":"shutdown","emberCLI":true},"stats":{"own":{},"time":{"self":73400}},"children":[]}]}
+{"summary":{"totalTime":52700,"platform":{"name":"win32"}},"nodes":[{"id":939,"label":{"name":"shutdown","emberCLI":true},"stats":{"own":{},"time":{"self":52700}},"children":[]}]}
