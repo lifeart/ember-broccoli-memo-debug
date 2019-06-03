@@ -1,7 +1,6 @@
 'use strict';
 
 process.env.BROCCOLI_ENABLED_MEMOIZE = "true";
-process.env.BROCCOLI_VIZ = 1;
 process.env.EMBER_CLI_BROCCOLI_WATCHER = 1;
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');

@@ -2323,7 +2323,32 @@ broccoli-uglify-sourcemap@^2.1.1:
     walk-sync "^0.3.2"
     workerpool "^2.3.0"
 
-broccoli@^2.3.0, broccoli@broccolijs/broccoli#master:
+broccoli@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/broccoli/-/broccoli-3.0.0.tgz#9b239bad111cf7c1d33a620c03e19f7a2d94a816"
+  integrity sha512-RcKIjIdFfRiwFR/KBcI0f1O6xtf/jBtISSQtMXYRH4Qn1Au6biGBXTf8btCgPnQJ1ABT7uZQNOzOZPoh5WFrRw==
+  dependencies:
+    broccoli-node-info "^2.0.0"
+    broccoli-slow-trees "^3.0.1"
+    broccoli-source "^1.1.0"
+    commander "^2.15.1"
+    connect "^3.6.6"
+    esm "^3.2.4"
+    findup-sync "^2.0.0"
+    handlebars "^4.0.11"
+    heimdalljs "^0.2.6"
+    heimdalljs-logger "^0.1.9"
+    mime-types "^2.1.19"
+    promise.prototype.finally "^3.1.0"
+    resolve-path "^1.4.0"
+    rimraf "^2.6.2"
+    sane "^4.0.0"
+    tmp "0.0.33"
+    tree-sync "^1.2.2"
+    underscore.string "^3.2.2"
+    watch-detector "^0.1.0"
+
+broccoli@broccolijs/broccoli#master:
   version "2.3.0"
   resolved "https://codeload.github.com/broccolijs/broccoli/tar.gz/41310dd35133130facdab4b1618d1c641a83fd0c"
   dependencies:
@@ -3290,9 +3315,9 @@ ember-cli-version-checker@^3.0.0, ember-cli-version-checker@^3.0.1, ember-cli-ve
     resolve-package-path "^1.2.6"
     semver "^5.6.0"
 
-ember-cli@oligriffiths/ember-cli#oli/broccoli-watcher:
+ember-cli@ember-cli/ember-cli#beta:
   version "3.11.0-beta.1"
-  resolved "https://codeload.github.com/oligriffiths/ember-cli/tar.gz/6df38d7ee373aab35ab69f452333480df1ed2d3d"
+  resolved "https://codeload.github.com/ember-cli/ember-cli/tar.gz/3c4481d070a40aba52004e0b3bf38c8c7fc748f6"
   dependencies:
     "@babel/core" "^7.4.3"
     "@babel/plugin-transform-modules-amd" "^7.2.0"
@@ -3300,7 +3325,7 @@ ember-cli@oligriffiths/ember-cli#oli/broccoli-watcher:
     babel-plugin-module-resolver "^3.2.0"
     bower-config "^1.4.1"
     bower-endpoint-parser "0.2.2"
-    broccoli "^2.3.0"
+    broccoli "^3.0.0"
     broccoli-amd-funnel "^2.0.1"
     broccoli-babel-transpiler "^7.2.0"
     broccoli-builder "^0.18.14"
